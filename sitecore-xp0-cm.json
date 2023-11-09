@@ -1,0 +1,143 @@
+{
+  "Id": "sha256:55825c834be6aa053e9292c77f90cd64557cf5a5be21a8fb412f1b76074076aa",
+  "RepoTags": [
+    "scr.sitecore.com/sxp/sitecore-xp0-cm:10.2-ltsc2019"
+  ],
+  "RepoDigests": [
+    "scr.sitecore.com/sxp/sitecore-xp0-cm@sha256:d2ac9c0b631ff23aae6915836123049ff6d714e01fc8af49eef69cc07cb7abf5"
+  ],
+  "Parent": "",
+  "Comment": "",
+  "Created": "2023-10-16T08:06:19.2632875Z",
+  "Container": "78ffdeeaf07d8842da30214e4dd5ca876b0e3eac86bda0c9f2ec097315e1f41c",
+  "ContainerConfig": {
+    "Hostname": "78ffdeeaf07d",
+    "Domainname": "",
+    "User": "",
+    "AttachStdin": false,
+    "AttachStdout": false,
+    "AttachStderr": false,
+    "ExposedPorts": {
+      "80/tcp": {}
+    },
+    "Tty": false,
+    "OpenStdin": false,
+    "StdinOnce": false,
+    "Env": [
+      "COMPLUS_RUNNING_IN_CONTAINER=1",
+      "COMPLUS_NGenProtectedProcess_FeatureEnabled=0",
+      "ROSLYN_COMPILER_LOCATION=C:\\RoslynCompilers-3.6.0\\tools",
+      "ContentSearch_IndexingManager_DisplayShortStatistic=false"
+    ],
+    "Cmd": [
+      "powershell",
+      "-Command",
+      "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';",
+      "#(nop) ",
+      "LABEL com.docker.compose.image.builder=classic"
+    ],
+    "Image": "sha256:1c84da2db3279bd5191eb41bb500ba5590d6988b3389ff8c80396f1719e8aa83",
+    "Volumes": null,
+    "WorkingDir": "C:\\inetpub\\wwwroot",
+    "Entrypoint": [
+      "C:\\LogMonitor\\LogMonitor.exe",
+      "powershell",
+      "C:\\Run-W3SVCService.ps1"
+    ],
+    "OnBuild": null,
+    "Labels": {
+      "com.docker.compose.image.builder": "classic"
+    },
+    "Shell": [
+      "powershell",
+      "-Command",
+      "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"
+    ]
+  },
+  "DockerVersion": "24.0.2",
+  "Author": "",
+  "Config": {
+    "Hostname": "",
+    "Domainname": "",
+    "User": "",
+    "AttachStdin": false,
+    "AttachStdout": false,
+    "AttachStderr": false,
+    "ExposedPorts": {
+      "80/tcp": {}
+    },
+    "Tty": false,
+    "OpenStdin": false,
+    "StdinOnce": false,
+    "Env": [
+      "COMPLUS_RUNNING_IN_CONTAINER=1",
+      "COMPLUS_NGenProtectedProcess_FeatureEnabled=0",
+      "ROSLYN_COMPILER_LOCATION=C:\\RoslynCompilers-3.6.0\\tools",
+      "ContentSearch_IndexingManager_DisplayShortStatistic=false"
+    ],
+    "Cmd": null,
+    "Image": "sha256:1c84da2db3279bd5191eb41bb500ba5590d6988b3389ff8c80396f1719e8aa83",
+    "Volumes": null,
+    "WorkingDir": "C:\\inetpub\\wwwroot",
+    "Entrypoint": [
+      "C:\\LogMonitor\\LogMonitor.exe",
+      "powershell",
+      "C:\\Run-W3SVCService.ps1"
+    ],
+    "OnBuild": null,
+    "Labels": {
+      "com.docker.compose.image.builder": "classic"
+    },
+    "Shell": [
+      "powershell",
+      "-Command",
+      "$ErrorActionPreference = 'Stop'; $ProgressPreference = 'SilentlyContinue';"
+    ]
+  },
+  "Architecture": "amd64",
+  "Os": "windows",
+  "OsVersion": "10.0.17763.4974",
+  "Size": 7984852410,
+  "VirtualSize": 7984852410,
+  "GraphDriver": {
+    "Data": {
+      "dir": "C:\\ProgramData\\Docker\\windowsfilter\\94464f0a92b19f6b2c1a7df8d92b877eff0d109d724cf56c667b4e5350277635"
+    },
+    "Name": "windowsfilter"
+  },
+  "RootFS": {
+    "Type": "layers",
+    "Layers": [
+      "sha256:da2d874340bd0ca5f710fcb2bb9abc7423e71287e9f2b87694767375272e797d",
+      "sha256:ccdd63ead577aac68daa3e2442e3741f61f0b96595e45d93c44a9762e02c3674",
+      "sha256:cb2a76adedc62fde84dc5d6b11b0c1f51614aea24513948c3ff2d350d612aace",
+      "sha256:4be94e7c41f309caa11c3cb30d8365ed0f4bff72416e41509f98e90383264540",
+      "sha256:9a16dad661ffc5f540111ec79d26a8997c520e2b3824a9e971c7f2e965031e8f",
+      "sha256:ca6f153973ebf7c99e4f502d716e2e6a3e72f8b0cd9acbf611f762599f972d06",
+      "sha256:9750f4ade5b23130c030dfec4314379f8ecc3dbd3e32d0bd3237256de8b210ca",
+      "sha256:c26b15432738b32af6353fa5b348eda930279df9162a949328243b0378f4dc32",
+      "sha256:2a6b2bfe3ad6b975cbaf8ea74c8372378c6c1b4136bed021929394472c9ecc6d",
+      "sha256:e1b1a1361178da746a786e7d481483bf02b7f645bcc2f3490891e147eeea06a5",
+      "sha256:2046c58f4dde040dda44f85362583b628c183e6b8f134df7835d197d5113e41f",
+      "sha256:316066fbe191115cf17a2398f8eba3f0555748a7353c4e302785978df8832c8a",
+      "sha256:024f550f9237551ca1feaaf97db4cc3d8a7524099b59976fd1715ae9aa24720d",
+      "sha256:978c92c1a4da679004ca988afd61e438936252d93e68532a30bea7385510705e",
+      "sha256:0cc642cdc79f81f90d84ffcc3d5ff050cb063aa3ba1f24cd7845c50118b53943",
+      "sha256:121b5dcd70b4d291f818026777fe74a5ecbf9ff704f5c324ac8a1224f88fee77",
+      "sha256:bd310ba5ae79e203728c73db23ef46962b7e7c3afb6504397041a6ef2c599f6c",
+      "sha256:d391ecd2dcc491c1bb071f664710f78bfcde9ff22ba3acef757885fcffd536a5",
+      "sha256:fbdb3836961a2f4a2e7ae2df33c154c2562198bfd993cc5999fc0b23838dcae0",
+      "sha256:c01a5035d0013e69a0195a1b1dbd733e277086d500fd01c0c32b2b7893425726",
+      "sha256:4b6d3a8c08b6e9e21b40fcdc6a3c55c858bb58aedc235f3cbb12debad9d9849d",
+      "sha256:ceee6f11b85eaff0505654897d663590aae7704ac84e7992e936cdd1c53c4052",
+      "sha256:e300ebe90e3591c8f24d81753e64300948688ef92fc37b2be6dc05c93c2c1994",
+      "sha256:cbbcffaf375c7728bf3d61272995f2b669abe3e6c50d6c28a1fd9f3ac722ba89",
+      "sha256:596ce4ebb5d587e51a360dc71b000296870b88bb5e71c5b2af617fb4e8d67b9d",
+      "sha256:7f3f0d6b2221c47aba25b280fde85cc806684e18d036ad4f9cdc6b7c5b660e64",
+      "sha256:dd7de4633e021b8c63a1d70cd737ef2e31f32d5543e1a063ae8f1d0f015f0cc2"
+    ]
+  },
+  "Metadata": {
+    "LastTagTime": "0001-01-01T00:00:00Z"
+  }
+}
