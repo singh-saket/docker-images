@@ -4,7 +4,7 @@
 
 Welcome to the repository for Troubleshoot Docker & Sitecore Images. This repository contains the output of the various sitecore images after executing the troubleshooting commands.
 
-**1] sitecore-xp0-cm.json**
+### 1] sitecore-xp0-cm.json
 
 I was facing an issue with the "sitecore-xp0-cm" sitecore image after taking the latest image pull, and for this reason, I executed the following PowerShell command:
 
